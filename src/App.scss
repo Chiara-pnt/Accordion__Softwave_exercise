@@ -1,0 +1,117 @@
+
+body{
+    height:621px;
+    background: var(--Background);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+
+
+    .App{
+        display: grid;
+        align-items: center;
+        
+
+        .illustration{
+            position: absolute;
+            width: 100px;
+
+            
+            .cube{
+                position: absolute;
+                z-index: 3;
+                transform: translate(-110px, -20px);
+            }
+            
+           
+            .mobile {
+            @media screen and (min-width:376px) {
+                    display: none;
+                }
+            }
+            .mobile-shadow {
+                @media screen and (min-width:376px) {
+                        display: none;
+                    }
+                }
+        }
+        .container{
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            border-radius: 20px;
+            padding: 5rem;
+            box-shadow: 4px 10px 18px rgba($color: #1b1b31, $alpha: 0.5) ;
+
+            .accordion{
+                padding: 1rem;
+                justify-content: left;
+            }
+            .design{
+                position: relative;
+                transform: translate(-240px, 10px);
+            }
+
+            .h1{
+                padding: 25px;
+            }
+        }
+        h1{
+            text-align: center;
+            font-size: 2rem;
+        }
+        
+    }
+}
+
+
+// @media screen and (min-width:320px)  {
+
+//     .App{
+//         margin-top: 80px;
+       
+//     }
+
+//     .illustration{
+//         display: flex;
+//         justify-content: center;
+//     }
+
+//     .mobile{
+//         width: 60%;
+//         position: absolute;
+//         z-index: 3;
+        
+//     }
+//     .mobile-shadow{
+//         position: absolute;
+//         z-index: 2;
+//         width: 70%;
+//         transform: translate(20px, 100px);
+//     }
+
+//     .desktop{
+//         display: none;
+//     }
+  
+// }
+
+// @media only screen and (min-width:1440px) {
+//     .mobile{
+//         display: none;
+//     }
+// }
+
+
+
+
+
+
+
+  
+   
+
+   
