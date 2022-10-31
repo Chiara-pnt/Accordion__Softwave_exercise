@@ -6,31 +6,10 @@
     transform: rotate(180deg)
   }
 
-  .accordion-item{
-    padding: 10px 20px 20px 0px;
-    margin: 20px;
-    border-bottom: 1px solid var(--Divider);
-    cursor: pointer;
-   
-
-    .accordion-title{
-      margin-left: 0px;
-      padding-left: 0%;
-    }
-    .accordion-title:hover{
-      color: var(--Soft-red);
-    }
-    
    .icon {
-    
       svg{
         float: right;
+        margin-left: 30px;
       }
    }
 
-    
-  }
-
-  .accordion-content{
-    margin-top: 10px;
-  }
